@@ -1,0 +1,192 @@
+/* ========================
+   ESTILO GERAL DO SITE
+   Feito por Kelvin Silva e equipe
+   ======================== */
+
+/* 🎨 Paleta de Cores:
+   Verde: #00ff88
+   Vermelho: #af1616
+   Fundo escuro: #1a1a1a
+*/
+
+/*  SELETORES DE TAG  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #00ff88;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #af1616;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+/*  NAVEGAÇÃO  */
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 180px;
+  height: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding-top: 40px;
+  gap: 20px;
+  border-right: 2px solid #00ff88;
+}
+
+nav a {
+  color: #00ff89;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #af1616;
+  transform: scale(1.1);
+}
+
+
+body {
+  margin-left: 180px;
+}
+
+/*  LISTAS E TABELA */
+ul {
+  list-style: square;
+  width: fit-content;
+  margin: 20px auto;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #222;
+}
+
+th, td {
+  border: 1px solid #00ff88;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #00ff88;
+  color: #1a1a1a;
+}
+
+td {
+  color: #f5f5f5;
+}
+
+/* IMAGENS - */
+img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* FORMULÁRIOS */
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #00ff88;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00ff88;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #00ff88;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  color: white;
+  margin-bottom: 15px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #af1616;
+}
+
+/* BOTÕES */
+button {
+  background-color: #00ff88;
+  color: #1a1a1a;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #af1616;
+  color: white;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.destaque {
+  color: #af1616;
+  font-weight: bold;
+}
+
+/*  SELETOR DE ID  */
+#rodape {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: #111;
+  color: #777;
+  border-top: 1px solid #00ff88;
+  font-size: 14px;
+}
